@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prueba de Formulario</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 40px; background: #f9f9f9; }
+    form { background: #fff; padding: 20px; border-radius: 10px; max-width: 400px; margin: auto; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+    input, textarea, button { width: 100%; padding: 10px; margin-top: 10px; border: 1px solid #ccc; border-radius: 5px; }
+    button { background-color: #007bff; color: #fff; border: none; cursor: pointer; }
+    button:hover { background-color: #0056b3; }
+  </style>
+</head>
+<body>
+  <h2 style="text-align:center;">Formulario de prueba</h2>
+
+  <form action="https://formsubmit.co/120400819g10.1@gmail.com" method="POST">
+    <input type="text" name="nombre" placeholder="Nombre completo" required>
+    <input type="email" name="email" placeholder="Correo electrónico" required>
+    <input type="date" name="fecha" required>
+    <textarea name="mensaje" rows="4" placeholder="Detalles del servicio (opcional)"></textarea>
+    <button type="submit">Enviar</button>
+
+    <!-- Configuración de FormSubmit -->
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_template" value="table">
+    <input type="hidden" name="_next" value="https://tuusuario.github.io/formsubmit-test/gracias.html">
+  </form>
+</body>
+</html>
